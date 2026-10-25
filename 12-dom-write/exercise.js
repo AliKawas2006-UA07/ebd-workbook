@@ -54,3 +54,5 @@ export function wireButtons() {
     clearProducts();
   });
 }
+
+document.addEventListener("DOMContentLoaded", wireButtons);
