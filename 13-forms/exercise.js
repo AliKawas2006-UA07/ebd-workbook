@@ -60,3 +60,4 @@ export function wireForm() {
     clearForm();
   });
 }
+document.addEventListener("DOMContentLoaded", wireForm);
